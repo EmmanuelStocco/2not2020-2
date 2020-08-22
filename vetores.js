@@ -48,6 +48,7 @@ let x3 = vetor1.splice(2, 1)
 console.log(vetor1, x3)
 
 // O splice() também serve para fazer substituições
+//na posica~çao 1, removendo 1 elemento, add pera
 vetor1.splice(1, 1, 'pera')
 console.log(vetor1)
 
@@ -74,6 +75,6 @@ console.log('-----------------------------')
 // Forma 2: for..of
 // Percorrer o vetor do primeiro ao último elemento de uma forma
 // mais simples que o for tradicional
-for(let fruta of vetor1) {
-    console.log(fruta)
+for(let fruta of vetor1) { //no lugar de fruta, pode ser qqr nome
+    console.log(fruta) //pega todos os elementos do vetor1 e joga na var fruta e printa, automatico
 }
