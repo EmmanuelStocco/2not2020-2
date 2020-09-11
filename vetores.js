@@ -8,7 +8,7 @@ let vetor4 = Array('vaca', 'cachorro', 'gato', 'papagaio')
 // Inserção de novos valores em um vetor
 
 // Forma 1: push() -> adiciona novos elementos AO FINAL do vetor
-vetor1.push('laranja')
+vetor1.push('laranj')
 vetor1.push('limão')
 
 console.log(vetor1)
