@@ -4,7 +4,7 @@
     Percorrer o vetor de dados, comparando elementos adjacentes
     e promovendo a troca quando o sucessor é maior que o antecessor.
     O percurso no vetor é feito tantas vezes quando necessário, até
-    que nenhuma troca seja efetuada no percurso.
+    que nenhuma troca seja efetuada no percurso.//
 */
 function bubbleSort(vetor) {
     let passadas = 0, comparacoes = 0, totalTrocas = 0
